@@ -1,4 +1,4 @@
 streamlit==0.71.0
-Keras==2.4.3
-numpy==1.9.1
+Keras==3.7.2
+numpy==1.25.1
 opencv_python==4.4.0.46
