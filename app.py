@@ -3,6 +3,7 @@ import numpy as np
 import streamlit as st
 import cv2
 from keras.models import load_model
+import tensorflow as tf
 
 #Loading the Model
 my_model = tf.keras.models.load_model('C:/Users/danda/OneDrive/Documents/GitHub/Plant_Disease/plant_disease.h5')
