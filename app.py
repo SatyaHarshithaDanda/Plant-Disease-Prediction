@@ -3,7 +3,7 @@ import numpy as np
 import streamlit as st
 import cv2
 from keras.models import load_model
-
+PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python
 
 #Loading the Model
 model = load_model('C:/Users/danda/OneDrive/Documents/GitHub/Plant_Disease/plant_disease.h5')
