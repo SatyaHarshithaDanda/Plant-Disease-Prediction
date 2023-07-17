@@ -6,8 +6,8 @@ from keras.models import load_model
 import tensorflow as tf
 
 #Loading the Model
-#my_model = tf.keras.models.load_model
-model = tf.saved_model.load('C:/Users/danda/OneDrive/Documents/GitHub/Plant_Disease/plant_disease.h5')
+my_model = tf.keras.models.load_model('C:/Users/danda/OneDrive/Documents/GitHub/Plant_Disease/plant_disease.h5')
+#model = tf.saved_model.load
 
 #Name of Classes
 CLASS_NAMES = ['Corn-Common_rust', 'Potato-Early_blight', 'Tomato-Bacterial_spot']
