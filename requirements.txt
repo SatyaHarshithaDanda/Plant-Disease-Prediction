@@ -5,3 +5,4 @@ opencv_python==4.4.0.46
 protobuf==3.20.0
 click==8
 altair==4.0
+TensorFlow==2.2
